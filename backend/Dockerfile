@@ -1,5 +1,6 @@
 # Build and run the Express + Prisma backend, serving the static frontend folder.
-FROM node:20-slim
+# Using the full image improves compatibility for native deps (e.g., bcrypt).
+FROM node:20
 
 WORKDIR /app
 

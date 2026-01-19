@@ -1,7 +1,7 @@
 # Fly.io app config (deploy backend + serve frontend static)
 # After creating the Fly app, you can adjust primary_region.
 
-app = "english-blossom"
+app = "english-blossom-miquangngwork"
 primary_region = "sin"
 
 [build]
