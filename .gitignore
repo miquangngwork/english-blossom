@@ -1,0 +1,14 @@
+# Environment files
+.env
+.env.*
+
+# Local credentials (do not commit)
+$cfg/
+
+# Node
+**/node_modules
+**/dist
+
+# OS/editor
+.DS_Store
+.vscode/

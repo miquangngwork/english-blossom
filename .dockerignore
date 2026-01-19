@@ -1,0 +1,13 @@
+# Keep secrets out of Docker build context
+.env
+.env.*
+$cfg/
+
+# Node build outputs
+**/node_modules
+**/dist
+
+# Git/editor
+.git
+.vscode
+.DS_Store
